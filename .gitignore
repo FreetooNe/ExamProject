@@ -1,0 +1,3 @@
+/tests/geckodriver.log
+/geckodriver.log
+/.pytest_cache/
