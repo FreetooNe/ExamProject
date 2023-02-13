@@ -1,0 +1,11 @@
+class ProfileConsts:
+    """Stores constants related to my_profile page"""
+    CHANGE_INFORMATION_XPATH = ".//span[text()='Змінити контактну інформацію']"
+    NAME_INPUT_XPATH = ".//input[@id='input-firstname']"
+    LASTNAME_INPUT_XPATH = ".//input[@id='input-lastname']"
+    EMAIL_INPUT_XPATH = ".//input[@id='input-email']"
+    TELEPHONE_INPUT_XPATH = ".//input[@id='input-telephone']"
+    CONTINUE_BUTTON_XPATH = ".//input[@value='Продовжити']"
+    VERIFY_CHANGE_MASSAGE = "/html/body/div[4]/div[1]/text()"
+    HISTORY_ORDERS_VERIFY = "//*[@id='content']/p"
+    HISTORY_ORDERS_XPATH = ".//a[@href='https://bonlook.ua/uk/order-history/']"
