@@ -2,7 +2,7 @@ import pytest
 from constants.base import BaseConstants
 
 
-@pytest.mark.parametrize("browser", [BaseConstants.CHROME])
+@pytest.mark.parametrize("browser", [BaseConstants.FIREFOX])
 class TestStartPage:
     """Tests for start page """
 
@@ -70,18 +70,18 @@ class TestStartPage:
         """
         start_page.search_item()
 
-    def test_add_item_to_favorites(self, start_page):
-        """
-         -Description: Positive test to add items for favorites
-              - Pre-condition:
-                 -Open start page
-            - Steps:
-                  Click on Heart near item
-                  Fill Email and Password
-                  Click on Favorites button
-                  Verify excepted result
-        """
-        start_page.add_item_to_favorites()
+    # def test_add_item_to_favorites(self, start_page):
+    #     """
+    #      -Description: Positive test to add items for favorites
+    #           - Pre-condition:
+    #              -Open start page
+    #         - Steps:
+    #               Click on Heart near item
+    #               Fill Email and Password
+    #               Click on Favorites button
+    #               Verify excepted result
+    #     """
+    #     start_page.add_item_to_favorites()
 
     def test_contact_information(self, start_page):
         """

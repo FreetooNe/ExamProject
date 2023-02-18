@@ -1,6 +1,6 @@
 class ProfileConsts:
     """Stores constants related to my_profile page"""
-    CHANGE_INFORMATION_XPATH = ".//span[text()='Змінити контактну інформацію']"
+    CHANGE_INFORMATION_XPATH = ".//a[@href='https://bonlook.ua/uk/edit-account/']"
     NAME_INPUT_XPATH = ".//input[@id='input-firstname']"
     LASTNAME_INPUT_XPATH = ".//input[@id='input-lastname']"
     EMAIL_INPUT_XPATH = ".//input[@id='input-email']"
